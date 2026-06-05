@@ -1,1 +1,120 @@
+# Irvin & Cyreen Wedding Website
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irvin & Cyreen | Our Wedding</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #fffafc;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f8cdda, #fbc2eb);
+      padding: 80px 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: #c94f7c;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      max-width: 700px;
+      margin: auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .details {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #c94f7c;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+    }
+
+    footer {
+      padding: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Irvin & Cyrene</h1>
+    <p>We’re getting married 💍</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>Our Story</h2>
+      <p class="details">
+        From strangers to forever. Every moment led us here — 
+        and now we’re starting our forever chapter together.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Wedding Details</h2>
+      <p class="details">
+        📅 Date: Your Wedding Date<br>
+        📍 Venue: Your Wedding Location<br>
+        ⏰ Time: Ceremony Time
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>RSVP</h2>
+      <p class="details">
+        We can’t wait to celebrate with you!
+      </p>
+      <a class="btn" href="#">Confirm Attendance</a>
+    </div>
+  </section>
+
+  <footer>
+    Made with love for Irvin & Cyreen ❤️
+  </footer>
+
+</body>
+</html>
+```
